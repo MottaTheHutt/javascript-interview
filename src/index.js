@@ -1,5 +1,10 @@
 import moment from 'moment';
 
+/**
+ * CODING CHALLENGE 1
+ * @param {String} str the string to format
+ * @see `codingChallenge.md` for instructions
+ */
 export function titleCase (str) {
   if (str === null) {
     throw Error('invalid input');
@@ -11,6 +16,11 @@ export function titleCase (str) {
   return splitStr.join(' ').trim();
 }
 
+/**
+ * CODING CHALLENGE 2
+ * @param {String} str the string to format
+ * @see `codingChallenge.md` for instructions
+ */
 export function toDateString (timestamp) {
   if (timestamp === null) {
     throw Error('invalid input');
