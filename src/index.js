@@ -6,7 +6,7 @@ import moment from 'moment';
  * @see `codingChallenge.md` for instructions
  */
 export function titleCase (str) {
-  if (str === null) {
+  if (!str) {
     throw Error('invalid input');
   }
   const splitStr = str.toLowerCase().split(/[^\w]|_/g);
